@@ -46,6 +46,4 @@ Thumbs.db
 .gradle/
 
 ### Environment & Config files ###
-.env
-*.properties
 *.yml
