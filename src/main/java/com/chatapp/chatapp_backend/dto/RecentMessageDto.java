@@ -3,15 +3,15 @@ package com.chatapp.chatapp_backend.dto;
 import com.chatapp.chatapp_backend.Enum.MessageStatus;
 import com.chatapp.chatapp_backend.entity.PersonalChatSession;
 import com.chatapp.chatapp_backend.entity.User;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.Instant;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
 public class RecentMessageDto {
     private Long id;
     private PersonalChatSession session;

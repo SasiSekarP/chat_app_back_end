@@ -13,7 +13,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("https://chat-app-for-mithya-lab.netlify.app")
+                .allowedOrigins("http://localhost:3000", "http://192.168.0.115:3000","http://192.168.139.92:3000","http://192.168.139.54:3000")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);

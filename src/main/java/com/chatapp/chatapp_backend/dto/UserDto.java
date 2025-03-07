@@ -1,12 +1,12 @@
 package com.chatapp.chatapp_backend.dto;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@Setter
 public class UserDto {
     private String username;
     private  String password;

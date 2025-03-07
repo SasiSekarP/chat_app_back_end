@@ -1,13 +1,13 @@
 package com.chatapp.chatapp_backend.dto;
 
 import com.chatapp.chatapp_backend.Enum.MessageStatus;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
 public class GroupChatMessageDto {
     private Long messageId;
     private String message;
